@@ -1,0 +1,21 @@
+# Rust build artifacts
+/target/
+target/
+
+# Cargo lock file (usually committed, but you can uncomment if needed)
+# Cargo.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
