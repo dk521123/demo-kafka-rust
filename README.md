@@ -1,4 +1,4 @@
-# 
+# Setup
 ## Pre-conditions
 1. Install docker/docker-compose
 2. Install Rust
@@ -47,6 +47,12 @@ Sent: {"temp": 2}
 Temp: 39
 ⚠️ High temperature alert!
 Temp: 2
+```
+
+# Clean up
+```sh
+docker compose down -v
+docker system prune -f
 ```
 
 # Appendix-A: How to create this project
